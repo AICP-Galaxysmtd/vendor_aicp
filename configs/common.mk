@@ -12,19 +12,15 @@ PRODUCT_PACKAGES += \
     libemoji \
     LatinImeDictionaryPack \
     mGerrit \
-    Microbes \
     ROMControl \
     Stk \
     su \
     SwagPapers \
-    Torch \
-    UnicornPorn \
 
 # AICP packages
 PRODUCT_PACKAGES += \
     OmniSwitch \
     DashClock \
-    AICP_OTA \
     KernelTweaker \
     Apollo
 
