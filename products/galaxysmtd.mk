@@ -7,9 +7,6 @@ $(call inherit-product, vendor/aicp/configs/common.mk)
 # Inherit GSM common stuff
 $(call inherit-product, vendor/aicp/configs/gsm.mk)
 
-# SGS2 overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/aicp/overlay/samsung/galaxysmtd
-
 # Setup device specific product configuration.
 PRODUCT_DEVICE := galaxysmtd
 PRODUCT_NAME := aicp_galaxysmtd
