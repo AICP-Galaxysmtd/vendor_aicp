@@ -22,7 +22,10 @@ PRODUCT_PACKAGES += \
     OmniSwitch \
     DashClock \
     KernelTweaker \
-    Apollo
+    Apollo \
+    DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_PROPERTY_OVERRIDES += \
